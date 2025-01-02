@@ -1,6 +1,6 @@
 baseURL: "https://vspro7.github.io/vishalblog/"
 title: ExampleSite
-paginate: 5
+# paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -128,7 +128,7 @@ menu:
       url: https://example.org
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+# pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
